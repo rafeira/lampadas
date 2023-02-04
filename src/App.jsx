@@ -1,10 +1,15 @@
 import './App.css';
-
-function App() {
+import SideBar from './components/SideBar'
+import Content from './components/layouts/Content'
+import { BrowserRouter } from 'react-router-dom';
+const App = () => {
   return (
-    <>
-      Lampadas
-    </>
+    <div className='App'>
+      <BrowserRouter>
+        <SideBar></SideBar>
+        <Content></Content>
+      </BrowserRouter>
+    </div>
   );
 }
 
