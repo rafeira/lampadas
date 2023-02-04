@@ -1,0 +1,23 @@
+.Menu {
+  display: flex;
+  height: 40px;
+  margin: 1px;
+}
+
+.Menu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  background-color: rgb(128, 128, 128, .015);
+  transition: 200ms;
+}
+
+
+.Menu a:hover {
+  background-color: rgb(96, 92, 100);
+  color: black;
+  transition: 200ms;
+}
