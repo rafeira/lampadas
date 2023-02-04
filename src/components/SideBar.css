@@ -1,0 +1,10 @@
+.SideBar {
+  width: 200px;
+  background: linear-gradient(270deg, rgba(60, 55, 65, 1) 0%, rgba(39, 36, 42, 1) 35%, rgba(7, 6, 8, 1) 100%);
+}
+
+.SideBar .menu-divider {
+  background-color: white;
+  height: 1px;
+  margin-inline: 15px;
+}
