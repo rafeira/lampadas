@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 
 const Menu = (props) => {
   return (
-    <Link to={props.link}></Link>
+    <div className="Menu">
+
+      <Link to={props.link}>{props.label}</Link>
+    </div>
   );
 }
 
