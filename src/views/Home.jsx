@@ -1,7 +1,9 @@
+import './Home.css'
+
 const Home = (props) => {
   return ( 
-    <div>
-      Ola mundo!
+    <div className="Home">
+      <div className="message">Seja bem vindo!</div>
     </div>
   );
 }
