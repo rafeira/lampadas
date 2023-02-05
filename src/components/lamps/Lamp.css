@@ -1,0 +1,7 @@
+.Lamp {
+  display: flex;
+  margin: 2px;
+}
+.Lamp img {
+  width: 100px;
+}
