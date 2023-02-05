@@ -1,0 +1,47 @@
+.Lamps {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.Lamps .lamps-container {
+  background-color: rgb(112, 248, 135, .2);
+  max-width: 700px;
+  margin: 0 60px;
+  display: flex;
+  height: fit-content;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 25px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.Lamps .lamps-container .add-button {
+  padding: 20px;
+  background-color: rgb(92, 134, 99);
+  height: 30px;
+  width: 30px;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  cursor: pointer;
+  border: 0.1px solid rgb(122, 122, 122);
+}
+
+.Lamps .lamps-container .add-button:hover {
+  background-color: rgb(55, 82, 59);
+  color: rgb(184, 191, 191);
+}
